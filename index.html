@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HZD Machine Guide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes scan {
+      0% { transform: translateY(-100%); }
+      50% { transform: translateY(200px); }
+      100% { transform: translateY(-100%); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-300 p-6">
+  
+  <header class="mb-10 text-center max-w-4xl mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 uppercase mb-2">
+      Horizon Machine Guide
+    </h1>
+    <p class="text-slate-400">Asset Names → Real Names with Images</p>
+  </header>
+
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-12">
+
+      <!-- Antelope → Lancehorn -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-emerald-500/50 shadow-emerald-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/d/d9/Lancehorn-Render.png/revision/latest/scale-to-width-down/400?cb=20170623043506" alt="Lancehorn" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Antelope</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-emerald-400 mb-1">Lancehorn</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Antelope</p>
+          <p class="text-sm text-slate-400">Acquisition class. Deer-like with long lance-like horns.</p>
+        </div>
+      </div>
+
+      <!-- Baboon → Clamberjaw -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-red-500/50 shadow-red-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/c/cc/Clamberjaw-wiki.png/revision/latest/scale-to-width-down/400?cb=20220216192121" alt="Clamberjaw" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Baboon</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-red-400 mb-1">Clamberjaw</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Baboon</p>
+          <p class="text-sm text-slate-400">Combat class (HFW). Hunched, aggressive primate-like machine.</p>
+        </div>
+      </div>
+
+      <!-- BeachLizard → Snapmaw -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-emerald-500/50 shadow-emerald-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/5/5e/Snapmaw-Render.png/revision/latest/scale-to-width-down/400?cb=20170623042718" alt="Snapmaw" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: BeachLizard</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-emerald-400 mb-1">Snapmaw</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: BeachLizard</p>
+          <p class="text-sm text-slate-400">Acquisition class. Crocodile-like, found near water.</p>
+        </div>
+      </div>
+
+      <!-- Crab → Shell-Walker -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-amber-500/50 shadow-amber-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/8/88/ShellWalker-Render.png/revision/latest/scale-to-width-down/400?cb=20170623042908" alt="Shell-Walker" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Crab</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-amber-400 mb-1">Shell-Walker</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Crab</p>
+          <p class="text-sm text-slate-400">Transport class. Carries hexagonal cargo container.</p>
+        </div>
+      </div>
+
+      <!-- Giraffe → Tallneck -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-cyan-500/50 shadow-cyan-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/3/34/TallNeck-Render.png/revision/latest/scale-to-width-down/400?cb=20170623042418" alt="Tallneck" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Giraffe</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-cyan-400 mb-1">Tallneck</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Giraffe</p>
+          <p class="text-sm text-slate-400">Recon class. Towering giraffe-like, maps the area.</p>
+        </div>
+      </div>
+
+      <!-- Glider → Sunwing -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-blue-500/50 shadow-blue-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/d/d0/Sunwing-wiki.png/revision/latest/scale-to-width-down/400?cb=20220216195853" alt="Sunwing" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Glider</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-blue-400 mb-1">Sunwing</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Glider</p>
+          <p class="text-sm text-slate-400">HFW machine. Flying, moth-like solar-powered machine.</p>
+        </div>
+      </div>
+
+      <!-- Mammoth → Behemoth -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-amber-500/50 shadow-amber-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/e/eb/Behemoth-Render.png/revision/latest/scale-to-width-down/400?cb=20170623044543" alt="Behemoth" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Mammoth</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-amber-400 mb-1">Behemoth</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Mammoth</p>
+          <p class="text-sm text-slate-400">Transport class. Rhino-like, levitates boulders.</p>
+        </div>
+      </div>
+
+      <!-- PlasmaSpine → Corruptor -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-purple-500/50 shadow-purple-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/a/a3/Corruptor-Render.png/revision/latest/scale-to-width-down/400?cb=20170623044324" alt="Corruptor" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: PlasmaSpine</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-purple-400 mb-1">Corruptor</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: PlasmaSpine</p>
+          <p class="text-sm text-slate-400">Chariot Line. Ancient scorpion-like machine.</p>
+        </div>
+      </div>
+
+      <!-- RaiderMelee → Sawtooth -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-red-500/50 shadow-red-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/9/94/Sawtooth-Render.png/revision/latest/scale-to-width-down/400?cb=20170623043043" alt="Sawtooth" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: RaiderMelee</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-red-400 mb-1">Sawtooth</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: RaiderMelee</p>
+          <p class="text-sm text-slate-400">Combat class. Saber-toothed tiger-like predator.</p>
+        </div>
+      </div>
+
+      <!-- Raptor → Longleg -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-cyan-500/50 shadow-cyan-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/0/08/LongLeg-Render.png/revision/latest/scale-to-width-down/400?cb=20170623043400" alt="Longleg" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Raptor</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-cyan-400 mb-1">Longleg</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Raptor</p>
+          <p class="text-sm text-slate-400">Recon class. Ostrich-like bird with sonic sac.</p>
+        </div>
+      </div>
+
+      <!-- Scout → Watcher -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-cyan-500/50 shadow-cyan-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/0/04/Watcher-Render.png/revision/latest/scale-to-width-down/400?cb=20170623042110" alt="Watcher" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: Scout</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-cyan-400 mb-1">Watcher</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: Scout</p>
+          <p class="text-sm text-slate-400">Recon class. Velociraptor-like with glowing eye.</p>
+        </div>
+      </div>
+
+      <!-- SeaBeast → Snapmaw (confirmed) -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-emerald-500/50 shadow-emerald-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/5/5e/Snapmaw-Render.png/revision/latest/scale-to-width-down/400?cb=20170623042718" alt="Snapmaw" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: SeaBeast</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-emerald-400 mb-1">Snapmaw</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: SeaBeast</p>
+          <p class="text-sm text-slate-400">Same as BeachLizard. Aquatic crocodile machine.</p>
+        </div>
+      </div>
+
+      <!-- SprayBot → Bellowback -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-amber-500/50 shadow-amber-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/d/d1/FireBellowback-Render.png/revision/latest/scale-to-width-down/400?cb=20170623044111" alt="Bellowback" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: SprayBot</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-amber-400 mb-1">Bellowback</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: SprayBot</p>
+          <p class="text-sm text-slate-400">Transport class. T-Rex like with fire/freeze sac.</p>
+        </div>
+      </div>
+
+      <!-- SunWing → Sunwing -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-blue-500/50 shadow-blue-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/d/d0/Sunwing-wiki.png/revision/latest/scale-to-width-down/400?cb=20220216195853" alt="Sunwing" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: SunWing</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-blue-400 mb-1">Sunwing</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: SunWing</p>
+          <p class="text-sm text-slate-400">HFW flying machine. Moth-like with solar wings.</p>
+        </div>
+      </div>
+
+      <!-- ThunderHawk → Stormbird -->
+      <div class="bg-slate-900/80 rounded-xl overflow-hidden border border-red-500/50 shadow-red-500/20 transition-all duration-300 hover:scale-[1.02]">
+        <div class="h-48 bg-slate-950 flex items-center justify-center relative overflow-hidden border-b border-slate-800">
+          <div class="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(34,211,238,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.1)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+          <img src="https://static.wikia.nocookie.net/horizonzerodawn/images/6/6a/Stormbird-Render.png/revision/latest/scale-to-width-down/400?cb=20170623042041" alt="Stormbird" class="h-full object-contain p-4">
+          <div class="absolute top-2 left-2 text-[10px] font-mono text-slate-500">ASSET: ThunderHawk</div>
+        </div>
+        <div class="p-5">
+          <h2 class="text-xl font-bold text-red-400 mb-1">Stormbird</h2>
+          <p class="text-xs text-slate-500 uppercase tracking-wider mb-3">Asset: ThunderHawk</p>
+          <p class="text-sm text-slate-400">Combat class. Giant eagle-like with electric wings.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
